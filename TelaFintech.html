@@ -1,0 +1,77 @@
+<!doctype html><!-- diz aos navegadores que esse arquivo e do tipo HTML5-->
+<html lang="en">
+  <head>
+    <!-- Required meta tags (Viewport) é a chava para uma pagina responsiva-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"> <!-- forca o internet explorer a utilizar as definições de css mais recentes-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="cssFintech.css     ">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <title>Safe Invest</title>
+  </head>
+  <body>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px;height: 970px;">
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li class="nav-item">
+                        <h1>Safe Invest</h1>
+                    </li>
+                    <li class="nav-item">
+                        <a  href="TelaFintech.html"><i class="bi bi-house"></i>&ensp; Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  href="Planejamento.html"><i class="bi bi-briefcase"></i>&ensp; Planejamento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  href="#"><i class="bi bi-bar-chart"></i>&ensp; Gráficos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  href="#"><i class="bi bi-book"></i>&ensp; Academia</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="card login">
+                <div class="container-fluid text-light">
+                    <form  class="form-horizontal">
+                        <div class="form-group">
+                            <h2 style="color: white;">Login</h2>
+                            <label for="email" class="control-label col-md-2">Email:</label>
+                            <div class="">
+                                <input type="email" class="form-control" id="email" name="email" value='caio@gmail' placeholder="Digite seu email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="senha">Senha:</label>
+                            <input type="senha" class="form-control" id="senha" name="senha" value='1234' placeholder="Digite sua senha">
+                        </div>
+                        <br>
+                        <a href="#" style="color: white;">cadastre-se aqui</a>
+
+                        <div class="row">
+                            <div class="send">
+                                <button id="enviaform" type="submit" class="botao btn btn-default">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="alert " style="display: none;" role="alert"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="calculador.js"></script>
+    <script src="main.js" type="module"></script>
+    
+  </body>
+</html>
+<script>
+    
+</script>
